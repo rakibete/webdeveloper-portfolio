@@ -194,18 +194,37 @@ main {
     font-weight: 600;
 
 }
-.btn-download{
+
+.btn-download {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
+    display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
-    display: flex;
     margin-top: 100px;
-    
+
 }
 
-.footer-column{
-    /* display: flex; */
+.footer-column {
+    width: 50%;
+}
+.footer-column a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], input[type="email"],textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
+
 }
