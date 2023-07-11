@@ -152,8 +152,60 @@ main {
 .skill-title {}
 
 .skill-description {
-     color:#757575;
-    
-    
+    color: #757575;
 
+
+
+}
+
+/* Experiance related styles */
+.resume-container {
+    display: flex;
+    gap: 60px;
+    margin-left: 10px;
+}
+
+.resume-colum {
+    align-content: center;
+    width: 511px;
+    /* flex-direction: column; */
+    flex-shrink: 0;
+
+
+}
+
+.resume-column-title {
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.resume-institute,
+.resume-item-description {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.btn-download{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    background: #FFF8F3;
+    padding: 130px 200px;
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.footer-column{
+    /* display: flex; */
 }
